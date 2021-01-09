@@ -22,6 +22,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        getWindow().setStatusBarColor(Color.WHITE);
 
         DatePickerTimeline datePickerTimeline = findViewById(R.id.datePickerTimeline);
 // Set a Start date (Default, 1 Jan 1970)
